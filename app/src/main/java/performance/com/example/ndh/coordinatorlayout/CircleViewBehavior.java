@@ -12,7 +12,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 import static android.content.ContentValues.TAG;
 
 @SuppressWarnings("unused")
-public class CircleViewBehivor extends CoordinatorLayout.Behavior<CircleImageView> {
+public class CircleViewBehavior extends CoordinatorLayout.Behavior<CircleImageView> {
     private final Context mContext;
     private float mAvatarMaxSize;
     private float diffY;    // 移动过程中y方向上的偏移量
@@ -30,7 +30,7 @@ public class CircleViewBehivor extends CoordinatorLayout.Behavior<CircleImageVie
     private boolean flagX = false; // 控制x方向上移动
     private boolean flagY = true;  //控制y方向上移动
 
-    public CircleViewBehivor(Context context, AttributeSet attrs) {
+    public CircleViewBehavior(Context context, AttributeSet attrs) {
         mContext = context;
     }
 

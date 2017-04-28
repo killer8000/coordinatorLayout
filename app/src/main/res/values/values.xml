@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="circle_view_behavior" translatable="false">performance.com.example.ndh.coordinatorlayout.CircleViewBehivor</string>
-    <string name="floating_action_button_behavior" translatable="true">performance.com.example.ndh.coordinatorlayout.CustomFloatingActionBehevior</string>
+    <string name="circle_view_behavior" translatable="false">performance.com.example.ndh.coordinatorlayout.CircleViewBehavior</string>
+    <string name="floating_action_button_behavior" translatable="true">performance.com.example.ndh.coordinatorlayout.CustomFloatingActionBehavior</string>
 
 </resources>

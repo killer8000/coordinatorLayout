@@ -16,14 +16,14 @@ import android.view.View;
  * Created by ndh on 17/4/26.
  */
 
-public class CustomFloatingActionBehevior extends FloatingActionButton.Behavior {
+public class CustomFloatingActionBehavior extends FloatingActionButton.Behavior {
     private static final String TAG = "NDH1--";
     float lastY = 0;
     int originalSize = 0;
     int maxScrollRange = 0;
     private ValueAnimator mAnimator;
 private AppBarLayout mAppBarLayout;
-    public CustomFloatingActionBehevior(Context context, AttributeSet attrs) {
+    public CustomFloatingActionBehavior(Context context, AttributeSet attrs) {
     }
 
     @Override
